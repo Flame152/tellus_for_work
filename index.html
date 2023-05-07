@@ -1,0 +1,587 @@
+<!DOCTYPE html>
+<html lang="ru">
+
+<head>
+	<title>Tellus for work</title>
+	<meta charset="UTF-8">
+	<meta name="format-detection" content="telephone=no">
+	<!-- <style>body{opacity: 0;}</style> -->
+	<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@8/swiper-bundle.min.css?_v=20230507232925">
+	<link rel="stylesheet" href="css/style.min.css?_v=20230507232925">
+
+	<link rel="shortcut icon" href="favicon.ico">
+	<!-- <meta name="robots" content="noindex, nofollow"> -->
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+</head>
+
+<body>
+	<div class="wrapper">
+		<header class="header">
+			<div class="header__container">
+				<a href="#" class="header__logo">
+					<img src="img/home/logo.svg" alt="logo">
+				</a>
+
+				<div class="header__menu menu">
+					<button type="button" class="menu__icon icon-menu"><span></span></button>
+					<nav class="menu__body">
+						<div class="menu__contacts">
+							<div class="menu__phones">
+								<div class="menu__icon-phone">
+									<img src="img/home/phone.svg" alt="phone">
+								</div>
+								<a href="tel:+79252525555" class="menu__first-phone">+7 <span class="menu__fatty">(925)</span> 252 55 55</a>
+								<div class="menu__slash">/</div>
+								<a href="tel:+79252525555" class="menu__second-phone">+7 <span class="menu__fatty">(925)</span> 252 55 55</a>
+							</div>
+							<div class="menu__social-language">
+								<div class="menu__social">
+									<a href="#" target="_blank" class="menu__item-social"><img src="img/home/tg.svg" alt="tg"></a>
+									<a href="#" target="_blank" class="menu__item-social"><img src="img/home/wa.svg" alt="wa"></a>
+									<a href="#" target="_blank" class="menu__item-social"><img src="img/home/inst.svg" alt="inst"></a>
+								</div>
+								<div class="menu__languages">
+									<div class="menu__icon-language">
+										<img src="img/home/language.svg" alt="icon">
+									</div>
+									<div class="menu__choice">
+										<div class="menu__language-ru menu__language-ru-active">русский</div>
+										<div class="menu__language-en">english</div>
+										<div class="menu__decor">
+											<img src="img/home/arrow.svg" alt="decor">
+										</div>
+										<ul class="menu__content-languages">
+											<li class="menu__language-item-ru">русский</li>
+											<li class="menu__language-item-en">english</li>
+										</ul>
+									</div>
+								</div>
+							</div>
+						</div>
+						<div class="menu__lists">
+							<ul class="menu__list-left">
+								<li class="menu__item"><a href="#" target="_blank" class="menu__link">Каталог</a></li>
+								<li class="menu__item"><a href="#" target="_blank" class="menu__link">Застройщики</a></li>
+							</ul>
+							<ul class="menu__list-right">
+								<li class="menu__item"><a href="#" target="_blank" class="menu__link">Контакты</a></li>
+								<li class="menu__item"><a href="#" target="_blank" class="menu__link">О компании</a></li>
+							</ul>
+						</div>
+					</nav>
+				</div>
+			</div>
+		</header>
+		<main class="page">
+
+			<section class="dream">
+				<div class="dream__background">
+					<div class="dream__container">
+						<div class="dream__title-options">
+							<div class="dream__background-white">
+								<div class="dream__title title">
+									<h1>Найди свою Мечту</h1>
+								</div>
+
+								<div class="dream__options-search">
+									<div class="dream__options-top">
+										<div class="dropdown">
+											<button class="dropdown__button">Купить</button>
+											<ul class="dropdown__list">
+												<li class="dropdown__list-item" data-value="item">Купить</li>
+												<li class="dropdown__list-item" data-value="item">Купить1</li>
+												<li class="dropdown__list-item" data-value="item">Купить2</li>
+											</ul>
+										</div>
+										<div class="dropdown dropdown__state">
+											<button class="dropdown__button">Статус</button>
+											<ul class="dropdown__list">
+												<li class="dropdown__list-item" data-value="item">Статус</li>
+												<li class="dropdown__list-item" data-value="item">Статус1</li>
+												<li class="dropdown__list-item" data-value="item">Статус2</li>
+											</ul>
+										</div>
+									</div>
+									<div class="dream__search-form">
+										<input class="dream__text" type="text" placeholder="Город, район, адрес... ">
+										<button class="dream__btn">Найти</button>
+									</div>
+								</div>
+								<div class="dream__options-bottom">
+									<div class="dropdown dropdown__real-estate">
+										<button class="dropdown__button">Выбрать недвижимость</button>
+										<ul class="dropdown__list">
+											<li class="dropdown__list-item" data-value="item">Выбрать недвижимость</li>
+											<li class="dropdown__list-item" data-value="item">Выбрать недвижимость1</li>
+											<li class="dropdown__list-item" data-value="item">Выбрать недвижимость2</li>
+										</ul>
+									</div>
+									<div class="dream__bottom-right">
+										<div class="dream__min-max">
+											<div class="dream__number">
+												<input type="number" placeholder="Min. площадь">
+											</div>
+											<div class="dream__number">
+												<input type="number" placeholder="Max. площадь">
+											</div>
+										</div>
+										<div class="dream__min-max">
+											<div class="dream__number">
+												<input type="number" placeholder="Min. площадь">
+											</div>
+											<div class="dream__number">
+												<input type="number" placeholder="Max. площадь">
+											</div>
+										</div>
+										<div class="dream__min-max">
+											<div class="dream__number">
+												<input type="number" placeholder="Min. площадь">
+											</div>
+											<div class="dream__number">
+												<input type="number" placeholder="Max. площадь">
+											</div>
+										</div>
+									</div>
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+			</section>
+
+			<section class="offers">
+				<div class="offers__container">
+					<div class="offers__button-title">
+						<div class="offers__title title">
+							<h2>Преимущества нашей компании</h2>
+						</div>
+						<a class="offers__button-link" href="#" target="_blank">смотреть все</a>
+					</div>
+				</div>
+				<div class="line"></div>
+				<!-- Оболочка слайдера -->
+				<div class="offers__slider">
+					<div class="swiper">
+						<!-- Двигающееся часть слайдера -->
+						<div class="offers__wrapper swiper-wrapper">
+							<!-- Слайд -->
+							<div class="offers__slide swiper-slide">
+								<div class="swiper-slide__card">
+									<div class="swiper-slide__image -ibg">
+										<picture><source srcset="img/offers/image.webp" type="image/webp"><img src="img/offers/image.jpg" alt="image"></picture>
+									</div>
+									<div class="swiper-slide__body">
+										<div class="swiper-slide__top">
+											<div class="swiper-slide__title">
+												<h4>Dubai Plaza</h4>
+											</div>
+											<div class="swiper-slide__price">500.000 AED</div>
+										</div>
+										<div class="swiper-slide__line line"></div>
+										<div class="swiper-slide__bottom">
+											<div class="swiper-slide__name">Студия</div>
+											<div class="swiper-slide__info-top">
+												<span class="swiper-slide__rooms">5 комнат</span>
+											</div>
+											<div class="swiper-slide__info-bottom">
+												<span class="swiper-slide__size">150 м2</span>
+												<span class="swiper-slide__bathrooms">2 санузла</span>
+											</div>
+										</div>
+										<a href="#" target="_blank" class="swiper-slide__button">Подробнее</a>
+									</div>
+								</div>
+							</div>
+							<div class="offers__slide swiper-slide">
+								<div class="swiper-slide__card">
+									<div class="swiper-slide__image -ibg">
+										<picture><source srcset="img/offers/image.webp" type="image/webp"><img src="img/offers/image.jpg" alt="image"></picture>
+									</div>
+									<div class="swiper-slide__body">
+										<div class="swiper-slide__top">
+											<div class="swiper-slide__title">
+												<h4>Dubai Plaza</h4>
+											</div>
+											<div class="swiper-slide__price">500.000 AED</div>
+										</div>
+										<div class="swiper-slide__line line"></div>
+										<div class="swiper-slide__bottom">
+											<div class="swiper-slide__name">Студия</div>
+											<div class="swiper-slide__info-top">
+												<span class="swiper-slide__rooms">5 комнат</span>
+											</div>
+											<div class="swiper-slide__info-bottom">
+												<span class="swiper-slide__size">150 м2</span>
+												<span class="swiper-slide__bathrooms">2 санузла</span>
+											</div>
+										</div>
+										<a href="#" target="_blank" class="swiper-slide__button">Подробнее</a>
+									</div>
+								</div>
+							</div>
+							<div class="offers__slide swiper-slide">
+								<div class="swiper-slide__card">
+									<div class="swiper-slide__image -ibg">
+										<picture><source srcset="img/offers/image.webp" type="image/webp"><img src="img/offers/image.jpg" alt="image"></picture>
+									</div>
+									<div class="swiper-slide__body">
+										<div class="swiper-slide__top">
+											<div class="swiper-slide__title">
+												<h4>Dubai Plaza</h4>
+											</div>
+											<div class="swiper-slide__price">500.000 AED</div>
+										</div>
+										<div class="swiper-slide__line line"></div>
+										<div class="swiper-slide__bottom">
+											<div class="swiper-slide__name">Студия</div>
+											<div class="swiper-slide__info-top">
+												<span class="swiper-slide__rooms">5 комнат</span>
+											</div>
+											<div class="swiper-slide__info-bottom">
+												<span class="swiper-slide__size">150 м2</span>
+												<span class="swiper-slide__bathrooms">2 санузла</span>
+											</div>
+										</div>
+										<a href="#" target="_blank" class="swiper-slide__button">Подробнее</a>
+									</div>
+								</div>
+							</div>
+							<div class="offers__slide swiper-slide">
+								<div class="swiper-slide__card">
+									<div class="swiper-slide__image -ibg">
+										<picture><source srcset="img/offers/image.webp" type="image/webp"><img src="img/offers/image.jpg" alt="image"></picture>
+									</div>
+									<div class="swiper-slide__body">
+										<div class="swiper-slide__top">
+											<div class="swiper-slide__title">
+												<h4>Dubai Plaza</h4>
+											</div>
+											<div class="swiper-slide__price">500.000 AED</div>
+										</div>
+										<div class="swiper-slide__line line"></div>
+										<div class="swiper-slide__bottom">
+											<div class="swiper-slide__name">Студия</div>
+											<div class="swiper-slide__info-top">
+												<span class="swiper-slide__rooms">5 комнат</span>
+											</div>
+											<div class="swiper-slide__info-bottom">
+												<span class="swiper-slide__size">150 м2</span>
+												<span class="swiper-slide__bathrooms">2 санузла</span>
+											</div>
+										</div>
+										<a href="#" target="_blank" class="swiper-slide__button">Подробнее</a>
+									</div>
+								</div>
+							</div>
+							<div class="offers__slide swiper-slide">
+								<div class="swiper-slide__card">
+									<div class="swiper-slide__image -ibg">
+										<picture><source srcset="img/offers/image.webp" type="image/webp"><img src="img/offers/image.jpg" alt="image"></picture>
+									</div>
+									<div class="swiper-slide__body">
+										<div class="swiper-slide__top">
+											<div class="swiper-slide__title">
+												<h4>Dubai Plaza</h4>
+											</div>
+											<div class="swiper-slide__price">500.000 AED</div>
+										</div>
+										<div class="swiper-slide__line line"></div>
+										<div class="swiper-slide__bottom">
+											<div class="swiper-slide__name">Студия</div>
+											<div class="swiper-slide__info-top">
+												<span class="swiper-slide__rooms">5 комнат</span>
+											</div>
+											<div class="swiper-slide__info-bottom">
+												<span class="swiper-slide__size">150 м2</span>
+												<span class="swiper-slide__bathrooms">2 санузла</span>
+											</div>
+										</div>
+										<a href="#" target="_blank" class="swiper-slide__button">Подробнее</a>
+									</div>
+								</div>
+							</div>
+							<div class="offers__slide swiper-slide">
+								<div class="swiper-slide__card">
+									<div class="swiper-slide__image -ibg">
+										<picture><source srcset="img/offers/image.webp" type="image/webp"><img src="img/offers/image.jpg" alt="image"></picture>
+									</div>
+									<div class="swiper-slide__body">
+										<div class="swiper-slide__top">
+											<div class="swiper-slide__title">
+												<h4>Dubai Plaza</h4>
+											</div>
+											<div class="swiper-slide__price">500.000 AED</div>
+										</div>
+										<div class="swiper-slide__line line"></div>
+										<div class="swiper-slide__bottom">
+											<div class="swiper-slide__name">Студия</div>
+											<div class="swiper-slide__info-top">
+												<span class="swiper-slide__rooms">5 комнат</span>
+											</div>
+											<div class="swiper-slide__info-bottom">
+												<span class="swiper-slide__size">150 м2</span>
+												<span class="swiper-slide__bathrooms">2 санузла</span>
+											</div>
+										</div>
+										<a href="#" target="_blank" class="swiper-slide__button">Подробнее</a>
+									</div>
+								</div>
+							</div>
+							<div class="offers__slide swiper-slide">
+								<div class="swiper-slide__card">
+									<div class="swiper-slide__image -ibg">
+										<picture><source srcset="img/offers/image.webp" type="image/webp"><img src="img/offers/image.jpg" alt="image"></picture>
+									</div>
+									<div class="swiper-slide__body">
+										<div class="swiper-slide__top">
+											<div class="swiper-slide__title">
+												<h4>Dubai Plaza</h4>
+											</div>
+											<div class="swiper-slide__price">500.000 AED</div>
+										</div>
+										<div class="swiper-slide__line line"></div>
+										<div class="swiper-slide__bottom">
+											<div class="swiper-slide__name">Студия</div>
+											<div class="swiper-slide__info-top">
+												<span class="swiper-slide__rooms">5 комнат</span>
+											</div>
+											<div class="swiper-slide__info-bottom">
+												<span class="swiper-slide__size">150 м2</span>
+												<span class="swiper-slide__bathrooms">2 санузла</span>
+											</div>
+										</div>
+										<a href="#" target="_blank" class="swiper-slide__button">Подробнее</a>
+									</div>
+								</div>
+							</div>
+						</div>
+
+					</div>
+					<!-- Если нужна пагинация -->
+					<div class="swiper-pagination-offers"></div>
+					<!-- Если нужна навигация (влево/вправо) -->
+					<button type="button" class="swiper-button-prev-offers"></button>
+					<button type="button" class="swiper-button-next-offers"></button>
+				</div>
+
+			</section>
+
+			<section class="benefit">
+				<div class="benefit__background-main">
+					<div class="benefit__container">
+						<div class="benefit__background"></div>
+						<div class="benefit__content">
+							<div class="benefit__title title">
+								<h2>Выгоды покупки недвижимости в Дубае</h2>
+							</div>
+							<div class="benefit__text">
+								<p>Potter ipsum wand elf parchment wingardium. Beans sticking padma me mr. Leprechaun fritters crimson marauder’s spider elemental dirt leviosa got you. Wizard than basilisk centaur splinched remembrall detention where lily. Robes golden out lemon Robes golden out lemon peruvian-night-powder eye.</p>
+								<ul class="benefit__list">
+									<li class="benefit__item">Potter ipsum wand elf parchment wingardium.</li>
+									<li class="benefit__item">Crypto ipsum bitcoin ethereum dogecoin litecoin. Flow binance arweave loopring ipsum</li>
+									<li class="benefit__item">Crypto ipsum bitcoin ethereum dogecoin litecoin.</li>
+								</ul>
+								<p>Potter ipsum wand elf parchment wingardium. Beans sticking padma me mr. Leprechaun fritters crimson marauder’s spider elemental dirt leviosa got you. Wizard than basilisk centaur splinched remembrall detention where lily. Robes golden out lemon Robes golden out lemon peruvian-night-powder eye.</p>
+							</div>
+						</div>
+					</div>
+				</div>
+			</section>
+
+			<section class="advantages">
+				<div class="advantages__container">
+					<div class="title">
+						<h2>Преимущества нашей компании</h2>
+					</div>
+					<div class="line"></div>
+					<div class="advantages__cards">
+						<div class="advantages__card">
+							<div class="card">
+								<div class="card__icon">
+									<img src="img/advantages/icon1.svg" alt="icon">
+								</div>
+								<div class="card__body">
+									<div class="card__title">
+										<h3>Быстро найдем</h3>
+									</div>
+									<div class="card__text">
+										<p>необходимую недвижимость</p>
+									</div>
+								</div>
+							</div>
+						</div>
+						<div class="advantages__card">
+							<div class="card">
+								<div class="card__icon">
+									<img src="img/advantages/icon2.svg" alt="icon">
+								</div>
+								<div class="card__body">
+									<div class="card__title">
+										<h3>Только лучшие</h3>
+									</div>
+									<div class="card__text">
+										<p>цены и предложения</p>
+									</div>
+								</div>
+							</div>
+						</div>
+						<div class="advantages__card">
+							<div class="card">
+								<div class="card__icon">
+									<img src="img/advantages/icon3.svg" alt="icon">
+								</div>
+								<div class="card__body">
+									<div class="card__title">
+										<h3>Исполняем любые</h3>
+									</div>
+									<div class="card__text">
+										<p>желания и мечты</p>
+									</div>
+								</div>
+							</div>
+						</div>
+						<div class="advantages__card">
+							<div class="card">
+								<div class="card__icon">
+									<img src="img/advantages/icon4.svg" alt="icon">
+								</div>
+								<div class="card__body">
+									<div class="card__title">
+										<h3>Самые лучшие</h3>
+									</div>
+									<div class="card__text">
+										<p>расположения <br> и виды</p>
+									</div>
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+			</section>
+
+			<section class="questions">
+				<div class="questions__container">
+					<div class="title">
+						<h2>Частые вопросы</h2>
+					</div>
+					<div class="line"></div>
+					<div class="questions__accordion">
+						<div class="questions__faq">
+							<div class="questions__content">
+								<div class="questions__question">
+									<p>Potter ipsum wand elf parchment wingardium. Your or hexed restricted grim sorting.</p>
+								</div>
+								<div class="questions__answer">
+									<p>Glory stairs world mr hagrid diadem eeylops dagger. Woes prince locomotor where bathroom minister trevor unwilling.s world mr hagrid diadem eeylops dagger. Woes prince locomoto Muggle-born swiveling half-blood robes hall metamorphimagus.</p>
+								</div>
+							</div>
+						</div>
+						<div class="questions__faq">
+							<div class="questions__content">
+								<div class="questions__question">
+									<p>Potter ipsum wand elf parchment wingardium. Your or hexed restricted grim sorting.</p>
+								</div>
+								<div class="questions__answer">
+									<p>Glory stairs world mr hagrid diadem eeylops dagger. Woes prince locomotor where bathroom minister trevor unwilling. Muggle-born swiveling half-blood robes hall metamorphimagus.</p>
+								</div>
+							</div>
+						</div>
+						<div class="questions__faq">
+							<div class="questions__content">
+								<div class="questions__question">
+									<p>Potter ipsum wand elf parchment wingardium. Your or hexed restricted grim sorting.</p>
+								</div>
+								<div class="questions__answer">
+									<p>Glory stairs world mr hagrid diadem eeylops dagger. Woes prince locomotor where bathroom minister trevor unwilling. Muggle-born swiveling half-blood robes hall metamorphimagus.</p>
+								</div>
+							</div>
+						</div>
+						<div class="questions__faq">
+							<div class="questions__content">
+								<div class="questions__question">
+									<p>Potter ipsum wand elf parchment wingardium. Your or hexed restricted grim sorting.</p>
+								</div>
+								<div class="questions__answer">
+									<p>Glory stairs world mr hagrid diadem eeylops dagger. Woes prince locomotor where bathroom minister trevor unwilling. Muggle-born swiveling half-blood robes hall metamorphimagus.</p>
+								</div>
+							</div>
+						</div>
+						<div class="questions__faq">
+							<div class="questions__content">
+								<div class="questions__question">
+									<p>Potter ipsum wand elf parchment wingardium. Your or hexed restricted grim sorting.</p>
+								</div>
+								<div class="questions__answer">
+									<p>Glory stairs world mr hagrid diadem eeylops dagger. Woes prince locomotor where bathroom minister trevor unwilling. Muggle-born swiveling half-blood robes hall metamorphimagus.</p>
+								</div>
+							</div>
+						</div>
+						<div class="questions__faq">
+							<div class="questions__content">
+								<div class="questions__question">
+									<p>Potter ipsum wand elf parchment wingardium. Your or hexed restricted grim sorting.</p>
+								</div>
+								<div class="questions__answer">
+									<p>Glory stairs world mr hagrid diadem eeylops dagger. Woes prince locomotor where bathroom minister trevor unwilling. Muggle-born swiveling half-blood robes hall metamorphimagus.</p>
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+			</section>
+
+		</main>
+		<footer class="footer">
+			<div class="footer__container">
+				<div class="footer__row">
+					<div class="footer__left">
+						<div class="footer__logo">
+							<img src="img/footer/logo.svg" alt="logo">
+						</div>
+						<div class="footer__info">
+							<div class="footer__label">
+								<p>©2023 <span>TELLUS</span> Propeties</p>
+							</div>
+							<div class="footer__dubai">
+								<p>ОАЭ, Дубай</p>
+							</div>
+							<div class="footer__rights">
+								<p>Все права защищены и охраняются законом</p>
+							</div>
+							<div class="footer__confidentiality">
+								<a href="#" target="_blank">Политика конфиденциальности</a>
+							</div>
+						</div>
+					</div>
+					<div class="footer__line"></div>
+					<div class="footer__center">
+						<div class="footer__contacts"><span>Контакты</span></div>
+						<ul class="footer__phone">
+							<li class="footer__tel"><a class="footer__link-tel" href="tel:+79252525555">+7 <span>(925)</span> 252 55 55</a></li>
+							<li class="footer__tel"><a class="footer__link-tel" href="tel:+79252525555">+7 <span>(925)</span> 252 55 55</a></li>
+						</ul>
+						<div class="footer__social">
+							<a href="#" target="_blank" class="footer__item-social"><img src="img/footer/tg.svg" alt="tg"></a>
+							<a href="#" target="_blank" class="footer__item-social"><img src="img/footer/wa.svg" alt="wa"></a>
+							<a href="#" target="_blank" class="footer__item-social"><img src="img/footer/inst.svg" alt="inst"></a>
+						</div>
+					</div>
+					<div class="footer__line"></div>
+					<div class="footer__right">
+						<a href="#" target="_blank" class="footer__home"><span>Главная</span></a>
+						<ol class="footer__list">
+							<li class="footer__item"><a href="#" target="_blank" class="footer__link-item">Застройщики</a></li>
+							<li class="footer__item"><a href="#" target="_blank" class="footer__link-item">Контакты</a></li>
+							<li class="footer__item"><a href="#" target="_blank" class="footer__link-item">О компании</a></li>
+						</ol>
+					</div>
+				</div>
+			</div>
+		</footer>
+	</div>
+
+	<script src="js/app.min.js?_v=20230507232925"></script>
+	<script src="https://cdn.jsdelivr.net/npm/swiper@8/swiper-bundle.min.js?_v=20230507232925"></script>
+</body>
+
+</html>
